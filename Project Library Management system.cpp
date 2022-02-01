@@ -215,7 +215,7 @@ void login()
 				cout << "\t\t\t\t\t[1] - For Borrow_Books: \n";
 				cout << "\t\t\t\t\t[2] - For Return_Books: \n";
 				cout << "\t\t\t\t\t[3] - For Checking all Books in Library :\n";
-				cout << "\t\t\t\t\t[4] - For Checking Borrow Books: \n\n";
+				cout << "\t\t\t\t\t[4] - For Checking All time favourite Borrow Books: \n\n";
 
 				cout << "\t\t\t\t\tPlaese enter your choice :";
 				cin >> select;
@@ -235,7 +235,7 @@ void login()
 					if (per->isbn == isbn)
 					{
 						cout << "\n\n\t\t\t\t\tBOOK FOUND!\n" << endl;
-						cout << "\t\t\t\t\tDo You Want to delete this books yes[1], no[2] :";
+						cout << "\t\t\t\t\tDo You Want to borrow this books yes[1], no[2] :";
 						cin >> choice;
 						if (choice == 1)
 						{
@@ -269,7 +269,7 @@ void login()
 						if (current->next == NULL)
 						{
 							cout << "\n\n\t\t\t\t\tBOOK FOUND!\n" << endl;
-							cout << "\t\t\t\t\tDo You Want to delete this books yes[1], no[2] :";
+							cout << "\t\t\t\t\tDo You Want to borrow this books yes[1], no[2] :";
 							cin >> choice;
 							if (choice == 1)
 							{
@@ -293,7 +293,7 @@ void login()
 						else
 						{
 							cout << "\n\n\t\t\t\t\tBOOK FOUND!\n" << endl;
-							cout << "\t\t\t\t\tDo You Want to delete this books yes[1], no[2] :";
+							cout << "\t\t\t\t\tDo You Want to borrow this books yes[1], no[2] :";
 							cin >> choice;
 							if (choice == 1)
 							{
